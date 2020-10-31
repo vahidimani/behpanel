@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html class="loading" lang="fa" data-textdirection="rtl" dir="rtl">
+<!-- BEGIN: Head-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>به پنل</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/ico/favicon.ico">
+    <meta name="theme-color" content="#5A8DEE">
+
+    <!-- BEGIN: Vendor CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/charts/apexcharts.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/css/extensions/dragula.min.css">
+    <!-- END: Vendor CSS-->
+
+    <!-- BEGIN: Theme CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/colors.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/components.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/themes/dark-layout.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/themes/semi-dark-layout.css">
+
+
+    <!-- END: Theme CSS-->
+
+    <!-- BEGIN: Page CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/core/menu/menu-types/horizontal-menu.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/pages/dashboard-analytics.css">
+    <!-- END: Page CSS-->
+
+
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+    <!-- END: Custom CSS-->
+</head>
+<!-- END: Head-->
+
+<!-- BEGIN: Body-->
+<body class="horizontal-layout horizontal-menu navbar-sticky 2-columns   footer-static  " data-open="hover"
+      data-menu="horizontal-menu" data-col="2-columns">
+
+<!-- BEGIN: Header-->
+<nav class="header-navbar navbar-expand-lg navbar navbar-with-menu navbar-fixed bg-primary navbar-brand-center">
+    <div class="navbar-header d-xl-block d-none">
+        <ul class="nav navbar-nav flex-row">
+            <li class="nav-item"><a class="navbar-brand" href="html/horizontal-menu-template/index.html">
+                <div class="brand-logo"><img class="logo" src="assets/images/logo/logo-light.png"></div>
+                <h2 class="brand-text mb-0">BehPanel</h2></a></li>
+        </ul>
+    </div>
+    <div class="navbar-wrapper">
+        <div class="navbar-container content">
+            <div class="navbar-collapse" id="navbar-mobile">
+                <div class="mr-auto float-left bookmark-wrapper d-flex align-items-center">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item mobile-menu mr-auto"><a class="nav-link nav-menu-main menu-toggle" href="#"><i
+                                class="bx bx-menu"></i></a></li>
+                    </ul>
+
+                </div>
+                <ul class="nav navbar-nav float-right d-flex align-items-center">
+
+                    <li class="nav-item nav-search"><a class="nav-link nav-link-search pt-2"><i
+                            class="ficon bx bx-search"></i></a>
+                        <div class="search-input">
+                            <div class="search-input-icon"><i class="bx bx-search primary"></i></div>
+                            <input class="input" type="text" placeholder="جستجو ..." tabindex="-1"
+                                   data-search="template-search">
+                            <div class="search-input-close"><i class="bx bx-x"></i></div>
+                            <ul class="search-list"></ul>
+                        </div>
+                    </li>
+                    <li class="dropdown dropdown-notification nav-item"><a class="nav-link nav-link-label" href="#"
+                                                                           data-toggle="dropdown"><i
+                            class="ficon bx bx-bell bx-tada bx-flip-horizontal"></i><span
+                            class="badge badge-pill badge-danger badge-up">5</span></a>
+                        <ul class="dropdown-menu dropdown-menu-media">
+                            <li class="dropdown-menu-header">
+                                <div class="dropdown-header px-1 py-75 d-flex justify-content-between"><span
+                                        class="notification-title">7 اعلان جدید</span><span
+                                        class="text-bold-400 cursor-pointer">علامت خوانده شده به همه</span></div>
+                            </li>
+                            <li class="scrollable-container media-list"><a class="d-flex justify-content-between"
+                                                                           href="javascript:void(0)">
+                                <div class="media d-flex align-items-center">
+                                    <div class="media-left pr-0">
+                                        <div class="avatar mr-1 m-0"><img
+                                                src="assets/images/portrait/small/avatar-s-11.jpg" alt="avatar"
+                                                height="39" width="39"></div>
+                                    </div>
+                                    <div class="media-body">
+                                        <h6 class="media-heading"><span
+                                                class="text-bold-500">تبریک بابت دریافت جوایز</span> در مسابقات سالانه
+                                        </h6><small class="notification-text">15 اردیبهشت 12:32 ب.ظ</small>
+                                    </div>
+                                </div>
+                            </a>
+                                <div class="d-flex justify-content-between read-notification cursor-pointer">
+                                    <div class="media d-flex align-items-center">
+                                        <div class="media-left pr-0">
+                                            <div class="avatar mr-1 m-0"><img
+                                                    src="assets/images/portrait/small/avatar-s-16.jpg" alt="avatar"
+                                                    height="39" width="39"></div>
+                                        </div>
+                                        <div class="media-body">
+                                            <h6 class="media-heading"><span class="text-bold-500">پیام جدید</span>
+                                                دریافت شد</h6><small class="notification-text">شما 18 پیام خوانده نشده
+                                            دارید</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between cursor-pointer">
+                                    <div class="media d-flex align-items-center py-0">
+                                        <div class="media-left pr-0"><img class="mr-1"
+                                                                          src="assets/images/icon/sketch-mac-icon.png"
+                                                                          alt="avatar" height="39" width="39"></div>
+                                        <div class="media-body">
+                                            <h6 class="media-heading"><span
+                                                    class="text-bold-500">به روز رسانی آماده است</span></h6><small
+                                                class="notification-text">لورم ایپسوم متن ساختگی با تولید سادگی</small>
+                                        </div>
+                                        <div class="media-right pl-0">
+                                            <div class="row border-left text-center">
+                                                <div class="col-12 px-50 py-50 border-bottom">
+                                                    <h6 class="media-heading text-bold-500 mb-0">به‌روزرسانی</h6>
+                                                </div>
+                                                <div class="col-12 px-50 py-50">
+                                                    <h6 class="media-heading mb-0">بستن</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between cursor-pointer">
+                                    <div class="media d-flex align-items-center">
+                                        <div class="media-left pr-0">
+                                            <div class="avatar bg-primary bg-lighten-5 mr-1 m-0 p-25"><span
+                                                    class="avatar-content text-primary font-medium-2">ل‌د</span></div>
+                                        </div>
+                                        <div class="media-body">
+                                            <h6 class="media-heading"><span class="text-bold-500">مشتری جدید</span> ثبت
+                                                نام کرد</h6><small class="notification-text">1 ساعت پیش</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cursor-pointer">
+                                    <div class="media d-flex align-items-center justify-content-between">
+                                        <div class="media-left pr-0">
+                                            <div class="media-body">
+                                                <h6 class="media-heading">پیشنهاد های جدید</h6>
+                                            </div>
+                                        </div>
+                                        <div class="media-right">
+                                            <div class="custom-control custom-switch">
+                                                <input class="custom-control-input" type="checkbox" checked
+                                                       id="notificationSwtich">
+                                                <label class="custom-control-label" for="notificationSwtich"></label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between cursor-pointer">
+                                    <div class="media d-flex align-items-center">
+                                        <div class="media-left pr-0">
+                                            <div class="avatar bg-danger bg-lighten-5 mr-1 m-0 p-25"><span
+                                                    class="avatar-content"><i
+                                                    class="bx bxs-heart text-danger"></i></span></div>
+                                        </div>
+                                        <div class="media-body">
+                                            <h6 class="media-heading"><span class="text-bold-500">نرم افزار</span> تایید
+                                                شد</h6><small class="notification-text">6 ساعت پیش</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between read-notification cursor-pointer">
+                                    <div class="media d-flex align-items-center">
+                                        <div class="media-left pr-0">
+                                            <div class="avatar mr-1 m-0"><img
+                                                    src="assets/images/portrait/small/avatar-s-4.jpg" alt="avatar"
+                                                    height="39" width="39"></div>
+                                        </div>
+                                        <div class="media-body">
+                                            <h6 class="media-heading"><span class="text-bold-500">فایل جدید</span> ارسال
+                                                شد</h6><small class="notification-text">4 ساعت پیش</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between cursor-pointer">
+                                    <div class="media d-flex align-items-center">
+                                        <div class="media-left pr-0">
+                                            <div class="avatar bg-rgba-danger m-0 mr-1 p-25">
+                                                <div class="avatar-content"><i class="bx bx-detail text-danger"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <h6 class="media-heading"><span class="text-bold-500">گزارش بودجه</span>
+                                                ایجاد شد</h6><small class="notification-text">25 ساعت پیش</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between cursor-pointer">
+                                    <div class="media d-flex align-items-center border-0">
+                                        <div class="media-left pr-0">
+                                            <div class="avatar mr-1 m-0"><img
+                                                    src="assets/images/portrait/small/avatar-s-16.jpg" alt="avatar"
+                                                    height="39" width="39"></div>
+                                        </div>
+                                        <div class="media-body">
+                                            <h6 class="media-heading"><span class="text-bold-500">مشتری جدید</span>
+                                                دیدگاهی ارسال کرد</h6><small class="notification-text">2 روز پیش</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown-menu-footer"><a
+                                    class="dropdown-item p-50 text-primary justify-content-center"
+                                    href="javascript:void(0)">خواندن همه اعلان ها</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown dropdown-user nav-item"><a class="dropdown-toggle nav-link dropdown-user-link"
+                                                                   href="#" data-toggle="dropdown">
+                        <div class="user-nav d-lg-flex d-none"><span class="user-name">تونی استارک</span></div>
+                        <span><img class="round" src="assets/images/portrait/small/avatar-s-11.jpg" alt="avatar"
+                                   height="40" width="40"></span></a>
+                        <div class="dropdown-menu pb-0">
+                            <a class="dropdown-item" href="page-user-profile.html">
+                                <i class="bx bx-user mr-50"></i>
+                                ویرایش پروفایل
+                            </a>
+
+                            <div class="dropdown-divider mb-0"></div>
+                            <a class="dropdown-item" href="auth-login.html"><i class="bx bx-power-off mr-50"></i>
+                                خروج</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- END: Header-->
+
+
+<!-- BEGIN: Main Menu-->
+<div class="header-navbar navbar-expand-sm navbar navbar-horizontal navbar-fixed navbar-light navbar-without-dd-arrow"
+     role="navigation" data-menu="menu-wrapper">
+    <div class="navbar-header d-xl-none d-block">
+        <ul class="nav navbar-nav flex-row">
+            <li class="nav-item mr-auto"><a class="navbar-brand" href="index.html">
+                <div class="brand-logo"><img class="logo" src="assets/images/logo/logo.png"></div>
+                <h2 class="brand-text mb-0">BehPanel</h2></a></li>
+            <li class="nav-item nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i
+                    class="bx bx-x d-block d-xl-none font-medium-4 primary toggle-icon"></i></a></li>
+        </ul>
+    </div>
+    <div class="shadow-bottom"></div>
+    <!-- Horizontal menu content-->
+    <div class="navbar-container main-menu-content" data-menu="menu-container">
+        <!-- include includes/mixins-->
+        <ul class="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation" data-icon-style="filled">
+            <li class=" nav-item">
+                <a class="nav-link" href="domain-manager.html">
+                    <i class="bx bx-desktop"></i>
+                    <span>مدیریت دامنه</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class=" nav-link" href="file-manger.html">
+                    <i class="bx bx-folder-open"></i>
+                    <span>مدیریت فایل</span>
+                </a>
+            </li>
+            <li class=" nav-item" >
+                <a class=" nav-link" href="email-manager.html">
+                    <i class="bx bx-envelope"></i><span>مدیریت ایمیل</span>
+                </a>
+            </li>
+            <li class=" nav-item" >
+                <a class=" nav-link" href="database-manager.html">
+                    <i class="bx bx-data"></i><span>مدیریت پایگاه داده</span>
+                </a>
+            </li>
+            <li class="dropdown nav-item" data-menu="dropdown">
+                <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown">
+                    <i class="bx bx-list-check"></i>
+                    <span>گزارشات</span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li data-menu="">
+                        <a class="dropdown-item align-items-center" href="ap-acc-log.html" data-toggle="dropdown">
+                            <i class="bx bx-left-arrow-alt"></i>
+                            گزارشات دسترسی آپاچی
+                        </a>
+                    </li>
+                    <li class="" data-menu="">
+                        <a class="dropdown-item align-items-center" href="ap-err-log.html" data-toggle="dropdown">
+                            <i class="bx bx-left-arrow-alt"></i>
+                            گزارشات خطای آپاچی
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class=" nav-item" >
+                <a class=" nav-link" href="security.html">
+                    <i class="bx bx-key"></i><span>امنیت</span>
+                </a>
+            </li>
+            <li class=" nav-item" >
+                <a class=" nav-link" href="pluguns.html">
+                    <i class="bx bx-coffee"></i><span>پلاگین</span>
+                </a>
+
+            </li>
+            <li class=" nav-item" >
+                <a class=" nav-link" href="network.html">
+                    <i class="bx bx-bar-chart-alt"></i><span>شبکه</span>
+                </a>
+            </li>
+            <li class="dropdown nav-item" data-menu="dropdown">
+                <a class="dropdown-toggle nav-link" href="#" data-toggle="dropdown">
+                    <i class="bx bx-wrench"></i>
+                    <span>سرویس ها</span>
+                </a>
+
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li data-menu="">
+                        <a class="dropdown-item align-items-center" href="website-config.html" data-toggle="dropdown">
+                            <i class="bx bx-left-arrow-alt"></i>
+                            پیکربندی وبسایت
+                        </a>
+                    </li>
+                    <li class="" data-menu="">
+                        <a class="dropdown-item align-items-center" href="php-config.html" data-toggle="dropdown">
+                            <i class="bx bx-left-arrow-alt"></i>
+                            پیکربندی php
+                        </a>
+                    </li>
+                    <li data-menu="">
+                        <a class="dropdown-item align-items-center" href="protected-dir.html" data-toggle="dropdown">
+                            <i class="bx bx-left-arrow-alt"></i>
+                            مسیرهای محافطت شده
+                        </a>
+                    </li>
+                    <li class="" data-menu="">
+                        <a class="dropdown-item align-items-center" href="spam-as-dir.html" data-toggle="dropdown">
+                            <i class="bx bx-left-arrow-alt"></i>
+                            پیکربندی قاتل اسپم
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!-- /horizontal menu content-->
+</div>
+<!-- END: Main Menu-->
+
+<!-- BEGIN: Content-->
+<div class="app-content content">
+    <div class="content-overlay" id="overlay"></div>
+    <div class="content-wrapper">
+        <div class="content-header row">
+            <div class="content-header-left col-12 mb-2 mt-1">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html"><i class="bx bx-home"></i></a></li>
+                        <li class="breadcrumb-item">سرویس ها</li>
+                        <li class="breadcrumb-item"><a href="index.html">پیکربندی php</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">تنظیمات دیگر</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <div class="content-body">
+            <div class="row">
+                <div class="sidenav" id="mySidenav">
+                    <div class=" menu-fixed menu-shadow menu-light" id="card-menu">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <br>
+                        <h5 class="d-block text-center">پیکربندی php</h5>
+                        <hr>
+                        <ul class="navigation navigation-main">
+                            <li class="nav-item">
+                                <a href="php-config-variables.html"><i
+                                        class="bx bxs-component mr-1"></i>متغیرهای php</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="php-config-directory-setting.html"><i
+                                        class="bx bx-folder-open mr-1"></i>تنظیمات دایرکتوری</a>
+                            </li>
+                            <li class="nav-item">
+                                <a  href="php-config-database-setting.html"><i
+                                        class="bx bx-data mr-1"></i>تنظیمات پایگاه داده</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="php-config-session-options.html"><i
+                                        class="bx bx-group mr-1"></i>گزینه های نشست</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="php-config-safemode-option.html"><i
+                                        class="bx bx-key mr-1"></i>گزینه های حالت ایمن</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="php-config-resource-limit.html"><i
+                                        class="bx bx-pause mr-1"></i>محدودیت منابع</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="php-config-error-logging.html"><i
+                                        class="bx bx-error mr-1"></i>گزارش خطا</a>
+                            </li>
+                            <li class="nav-item">
+                                <a  href="php-config-other-settings.html"><i
+                                        class="bx bx-wrench mr-1"></i>تنظیمات دیگر</a>
+                            </li>
+                            <li class="nav-item">
+                                <a  href="php-config-edit-config-manually.html"><i
+                                        class="bx bx-edit-alt mr-1"></i>ویرایش دستی پیکربندی</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-xl-3 card-menu-static">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="card-body ">
+                                <h5 class="d-block text-center">پیکربندی php</h5>
+                                <hr>
+                                <ul class="navigation navigation-main">
+                                    <li class="nav-item">
+                                        <a href="php-config-variables.html"><i
+                                                class="bx bxs-component mr-1"></i>متغیرهای php</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="php-config-directory-setting.html"><i
+                                                class="bx bx-folder-open mr-1"></i>تنظیمات دایرکتوری</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a  href="php-config-database-setting.html"><i
+                                                class="bx bx-data mr-1"></i>تنظیمات پایگاه داده</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="php-config-session-options.html"><i
+                                                class="bx bx-group mr-1"></i>گزینه های نشست</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="php-config-safemode-option.html"><i
+                                                class="bx bx-key mr-1"></i>گزینه های حالت ایمن</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="php-config-resource-limit.html"><i
+                                                class="bx bx-pause mr-1"></i>محدودیت منابع</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="php-config-error-logging.html"><i
+                                                class="bx bx-error mr-1"></i>گزارش خطا</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a  href="php-config-other-settings.html"><i
+                                                class="bx bx-wrench mr-1"></i>تنظیمات دیگر</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a  href="php-config-edit-config-manually.html"><i
+                                                class="bx bx-edit-alt mr-1"></i>ویرایش دستی پیکربندی</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9" id="main">
+                    <div class="card">
+                        <div class="bg-primary" id="opennav-div">
+                            <a id="opennav" class=" breadcrumb-item" onclick="openNav()"></a>
+                        </div>
+
+                        <div class="card-content">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="card icon-tab">
+                                            <div class="card-content">
+                                                <div class="card-body">
+                                                    <form action="#" class="mt-2">
+                                                        <fieldset>
+                                                            <div class="row">
+                                                                <div class="col-12">
+                                                                    <div class="form-group radio-form-group">
+                                                                        <label>اجازه به اسکریپت هایی که با ?&gt; شروع می شوند:</label>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="allow-php-scripts-starting-with-q" value="apsswq-yes" id="apsswq-yes" checked >
+                                                                            <label for="apsswq-yes">بله</label>
+                                                                        </div>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="allow-php-scripts-starting-with-q" value="apsswq-no" id="apsswq-no" >
+                                                                            <label for="apsswq-no">خیر</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group radio-form-group">
+                                                                        <label>فشرده سازی خروجی با zlib؟</label>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="compress-output-with-zlib" value="cowz-yes" id="cowz-yes" checked >
+                                                                            <label for="cowz-yes">بله</label>
+                                                                        </div>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="compress-output-with-zlib" value="cowz-no" id="cowz-no" >
+                                                                            <label for="cowz-no">خیر</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group radio-form-group">
+                                                                        <label>باز کردن URL ها به عنوان فایل مجاز است؟</label>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="allow-opening-of-url-as-files" value="aoouaf-yes" id="aoouaf-yes" checked >
+                                                                            <label for="aoouaf-yes">بله</label>
+                                                                        </div>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="allow-opening-of-url-as-files" value="aoouaf-no" id="aoouaf-no" >
+                                                                            <label for="aoouaf-no">خیر</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group radio-form-group">
+                                                                        <label>برچسب <٪٪> مجاز است؟</label>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="allow-percent-tags" value="apt-yes" id="apt-yes" checked >
+                                                                            <label for="apt-yes">بله</label>
+                                                                        </div>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="allow-percent-tags" value="apt-no" id="apt-no" >
+                                                                            <label for="apt-no">خیر</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group radio-form-group">
+                                                                        <label>پس از هر بار نوشتن ، خروجی شستشو شود؟</label>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="flush-output-after-every-write" value="foaew-yes" id="foaew-yes" checked >
+                                                                            <label for="foaew-yes">بله</label>
+                                                                        </div>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="flush-output-after-every-write" value="foaew-no" id="foaew-no" >
+                                                                            <label for="foaew-no">خیر</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr>
+                                                                    <div class="form-group radio-form-group">
+                                                                        <label>سرور SMTP برای ارسال ایمیل:</label>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="smtp-server-for-sending-email" value="ssfse-none" id="ssfse-none"  onclick="e = form.elements['ssfse-other-text']; e.disabled = true; for(i=0; i<e.length; i++) { e[i].disabled = true; } ">
+                                                                            <label for="ssfse-none">هیچکدام</label>
+                                                                        </div>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="smtp-server-for-sending-email" value="ssfse-other" id="ssfse-other" checked onclick="e = form.elements['ssfse-other-text']; e.disabled = false; for(i=0; i<e.length; i++) { e[i].disabled = false; } ">
+                                                                            <label for="ssfse-other" class="label-radio">مقدار دلخواه</label>
+                                                                        </div>
+                                                                        <div class="col-12 clear-both">
+                                                                            <input type="text" class="form-control" id="ssfse-other-text" name="ssfse-other-text" value="localhost" dir="ltr">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group radio-form-group">
+                                                                        <label>پورت SMTP روی سرور:</label>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="smtp-port-on-server" value="spos-default" id="spos-default"  onclick="e = form.elements['spos-other-text']; e.disabled = true; for(i=0; i<e.length; i++) { e[i].disabled = true; } ">
+                                                                            <label for="spos-default">پیشفرض</label>
+                                                                        </div>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="smtp-port-on-server" value="spos-other" id="spos-other" checked onclick="e = form.elements['spos-other-text']; e.disabled = false; for(i=0; i<e.length; i++) { e[i].disabled = false; } ">
+                                                                            <label for="spos-other" class="label-radio">مقدار دلخواه</label>
+                                                                        </div>
+                                                                        <div class="col-12 clear-both">
+                                                                            <input type="text" class="form-control" id="spos-other-text" name="spos-other-text" value="25">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group radio-form-group">
+                                                                        <label>مسیر فرمان برای ارسال ایمیل:</label>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="path-to-command-for-sending-email" value="ptcfse-none" id="ptcfse-none"  onclick="e = form.elements['ptcfse-other-text']; e.disabled = true; for(i=0; i<e.length; i++) { e[i].disabled = true; } ">
+                                                                            <label for="ptcfse-none">هیچکدام</label>
+                                                                        </div>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="path-to-command-for-sending-email" value="ptcfse-other" id="ptcfse-other" checked onclick="e = form.elements['ptcfse-other-text']; e.disabled = false; for(i=0; i<e.length; i++) { e[i].disabled = false; } ">
+                                                                            <label for="ptcfse-other" class="label-radio">مقدار دلخواه</label>
+                                                                        </div>
+                                                                        <div class="col-12 clear-both">
+                                                                            <input type="text" class="form-control" id="ptcfse-other-text" name="ptcfse-other-text" value="/usr/sbin/sendmail -t -i" dir="ltr">
+                                                                        </div>
+                                                                    </div>
+                                                                    <hr>
+                                                                    <div class="form-group radio-form-group">
+                                                                        <label>باز کردن ریموت مجاز است؟</label>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="allow-opening-of-remote-includes" value="aoori-yes" id="aoori-yes" checked >
+                                                                            <label for="aoori-yes">بله</label>
+                                                                        </div>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="allow-opening-of-remote-includes" value="aoori-no" id="aoori-no" >
+                                                                            <label for="aoori-no">خیر</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group radio-form-group">
+                                                                        <label>CGI اطلاعات مسیر را برطرف کند؟</label>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="cgi-fix-path-info" value="cfpi-default" id="cfpi-default" checked >
+                                                                            <label for="cfpi-default">پیشفرض</label>
+                                                                        </div>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="cgi-fix-path-info" value="cfpi-yes" id="cfpi-yes" checked >
+                                                                            <label for="cfpi-yes">بله</label>
+                                                                        </div>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="cgi-fix-path-info" value="cfpi-no" id="cfpi-no" >
+                                                                            <label for="cfpi-no">خیر</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group radio-form-group">
+                                                                        <label for="php-timezone">منطقه زمانی php:</label>
+                                                                        <select class="form-control" name="php-timezone" id="php-timezone">
+                                                                            <option value=""> (Default)</option>
+                                                                            <option value="Africa/Abidjan">Africa/Abidjan</option>
+                                                                            <option value="Africa/Accra">Africa/Accra</option>
+                                                                            <option value="Africa/Addis_Ababa">Africa/Addis_Ababa</option>
+                                                                            <option value="Africa/Algiers">Africa/Algiers</option>
+                                                                            <option value="Africa/Asmara">Africa/Asmara</option>
+                                                                            <option value="Africa/Bamako">Africa/Bamako</option>
+                                                                            <option value="Africa/Bangui">Africa/Bangui</option>
+                                                                            <option value="Africa/Banjul">Africa/Banjul</option>
+                                                                            <option value="Africa/Bissau">Africa/Bissau</option>
+                                                                            <option value="Africa/Blantyre">Africa/Blantyre</option>
+                                                                            <option value="Africa/Brazzaville">Africa/Brazzaville</option>
+                                                                            <option value="Africa/Bujumbura">Africa/Bujumbura</option>
+                                                                            <option value="Africa/Cairo">Africa/Cairo</option>
+                                                                            <option value="Africa/Casablanca">Africa/Casablanca</option>
+                                                                            <option value="Africa/Ceuta">Africa/Ceuta (Ceuta, Melilla)</option>
+                                                                            <option value="Africa/Conakry">Africa/Conakry</option>
+                                                                            <option value="Africa/Dakar">Africa/Dakar</option>
+                                                                            <option value="Africa/Dar_es_Salaam">Africa/Dar_es_Salaam</option>
+                                                                            <option value="Africa/Djibouti">Africa/Djibouti</option>
+                                                                            <option value="Africa/Douala">Africa/Douala</option>
+                                                                            <option value="Africa/El_Aaiun">Africa/El_Aaiun</option>
+                                                                            <option value="Africa/Freetown">Africa/Freetown</option>
+                                                                            <option value="Africa/Gaborone">Africa/Gaborone</option>
+                                                                            <option value="Africa/Harare">Africa/Harare</option>
+                                                                            <option value="Africa/Johannesburg">Africa/Johannesburg</option>
+                                                                            <option value="Africa/Juba">Africa/Juba</option>
+                                                                            <option value="Africa/Kampala">Africa/Kampala</option>
+                                                                            <option value="Africa/Khartoum">Africa/Khartoum</option>
+                                                                            <option value="Africa/Kigali">Africa/Kigali</option>
+                                                                            <option value="Africa/Kinshasa">Africa/Kinshasa (Dem. Rep. of Congo (west))</option>
+                                                                            <option value="Africa/Lagos">Africa/Lagos</option>
+                                                                            <option value="Africa/Libreville">Africa/Libreville</option>
+                                                                            <option value="Africa/Lome">Africa/Lome</option>
+                                                                            <option value="Africa/Luanda">Africa/Luanda</option>
+                                                                            <option value="Africa/Lubumbashi">Africa/Lubumbashi (Dem. Rep. of Congo (east))</option>
+                                                                            <option value="Africa/Lusaka">Africa/Lusaka</option>
+                                                                            <option value="Africa/Malabo">Africa/Malabo</option>
+                                                                            <option value="Africa/Maputo">Africa/Maputo</option>
+                                                                            <option value="Africa/Maseru">Africa/Maseru</option>
+                                                                            <option value="Africa/Mbabane">Africa/Mbabane</option>
+                                                                            <option value="Africa/Mogadishu">Africa/Mogadishu</option>
+                                                                            <option value="Africa/Monrovia">Africa/Monrovia</option>
+                                                                            <option value="Africa/Nairobi">Africa/Nairobi</option>
+                                                                            <option value="Africa/Ndjamena">Africa/Ndjamena</option>
+                                                                            <option value="Africa/Niamey">Africa/Niamey</option>
+                                                                            <option value="Africa/Nouakchott">Africa/Nouakchott</option>
+                                                                            <option value="Africa/Ouagadougou">Africa/Ouagadougou</option>
+                                                                            <option value="Africa/Porto-Novo">Africa/Porto-Novo</option>
+                                                                            <option value="Africa/Sao_Tome">Africa/Sao_Tome</option>
+                                                                            <option value="Africa/Tripoli">Africa/Tripoli</option>
+                                                                            <option value="Africa/Tunis">Africa/Tunis</option>
+                                                                            <option value="Africa/Windhoek">Africa/Windhoek</option>
+                                                                            <option value="America/Adak">America/Adak (Aleutian Islands)</option>
+                                                                            <option value="America/Anchorage">America/Anchorage (Alaska (most areas))</option>
+                                                                            <option value="America/Anguilla">America/Anguilla</option>
+                                                                            <option value="America/Antigua">America/Antigua</option>
+                                                                            <option value="America/Araguaina">America/Araguaina (Tocantins)</option>
+                                                                            <option value="America/Argentina/Buenos_Aires">America/Argentina/Buenos_Aires (Buenos Aires (BA, CF))</option>
+                                                                            <option value="America/Argentina/Catamarca">America/Argentina/Catamarca (Catamarca (CT); Chubut (CH))</option>
+                                                                            <option value="America/Argentina/Cordoba">America/Argentina/Cordoba (Argentina (most areas: CB, CC, CN, ER, FM, MN, SE, SF))</option>
+                                                                            <option value="America/Argentina/Jujuy">America/Argentina/Jujuy (Jujuy (JY))</option>
+                                                                            <option value="America/Argentina/La_Rioja">America/Argentina/La_Rioja (La Rioja (LR))</option>
+                                                                            <option value="America/Argentina/Mendoza">America/Argentina/Mendoza (Mendoza (MZ))</option>
+                                                                            <option value="America/Argentina/Rio_Gallegos">America/Argentina/Rio_Gallegos (Santa Cruz (SC))</option>
+                                                                            <option value="America/Argentina/Salta">America/Argentina/Salta (Salta (SA, LP, NQ, RN))</option>
+                                                                            <option value="America/Argentina/San_Juan">America/Argentina/San_Juan (San Juan (SJ))</option>
+                                                                            <option value="America/Argentina/San_Luis">America/Argentina/San_Luis (San Luis (SL))</option>
+                                                                            <option value="America/Argentina/Tucuman">America/Argentina/Tucuman (Tucuman (TM))</option>
+                                                                            <option value="America/Argentina/Ushuaia">America/Argentina/Ushuaia (Tierra del Fuego (TF))</option>
+                                                                            <option value="America/Aruba">America/Aruba</option>
+                                                                            <option value="America/Asuncion">America/Asuncion</option>
+                                                                            <option value="America/Atikokan">America/Atikokan (EST - ON (Atikokan); NU (Coral H))</option>
+                                                                            <option value="America/Bahia">America/Bahia (Bahia)</option>
+                                                                            <option value="America/Bahia_Banderas">America/Bahia_Banderas (Central Time - Bahia de Banderas)</option>
+                                                                            <option value="America/Barbados">America/Barbados</option>
+                                                                            <option value="America/Belem">America/Belem (Para (east); Amapa)</option>
+                                                                            <option value="America/Belize">America/Belize</option>
+                                                                            <option value="America/Blanc-Sablon">America/Blanc-Sablon (AST - QC (Lower North Shore))</option>
+                                                                            <option value="America/Boa_Vista">America/Boa_Vista (Roraima)</option>
+                                                                            <option value="America/Bogota">America/Bogota</option>
+                                                                            <option value="America/Boise">America/Boise (Mountain - ID (south); OR (east))</option>
+                                                                            <option value="America/Cambridge_Bay">America/Cambridge_Bay (Mountain - NU (west))</option>
+                                                                            <option value="America/Campo_Grande">America/Campo_Grande (Mato Grosso do Sul)</option>
+                                                                            <option value="America/Cancun">America/Cancun (Eastern Standard Time - Quintana Roo)</option>
+                                                                            <option value="America/Caracas">America/Caracas</option>
+                                                                            <option value="America/Cayenne">America/Cayenne</option>
+                                                                            <option value="America/Cayman">America/Cayman</option>
+                                                                            <option value="America/Chicago">America/Chicago (Central (most areas))</option>
+                                                                            <option value="America/Chihuahua">America/Chihuahua (Mountain Time - Chihuahua (most areas))</option>
+                                                                            <option value="America/Costa_Rica">America/Costa_Rica</option>
+                                                                            <option value="America/Creston">America/Creston (MST - BC (Creston))</option>
+                                                                            <option value="America/Cuiaba">America/Cuiaba (Mato Grosso)</option>
+                                                                            <option value="America/Curacao">America/Curacao</option>
+                                                                            <option value="America/Danmarkshavn">America/Danmarkshavn (National Park (east coast))</option>
+                                                                            <option value="America/Dawson">America/Dawson (Pacific - Yukon (west))</option>
+                                                                            <option value="America/Dawson_Creek">America/Dawson_Creek (MST - BC (Dawson Cr, Ft St John))</option>
+                                                                            <option value="America/Denver">America/Denver (Mountain (most areas))</option>
+                                                                            <option value="America/Detroit">America/Detroit (Eastern - MI (most areas))</option>
+                                                                            <option value="America/Dominica">America/Dominica</option>
+                                                                            <option value="America/Edmonton">America/Edmonton (Mountain - AB; BC (E); SK (W))</option>
+                                                                            <option value="America/Eirunepe">America/Eirunepe (Amazonas (west))</option>
+                                                                            <option value="America/El_Salvador">America/El_Salvador</option>
+                                                                            <option value="America/Fort_Nelson">America/Fort_Nelson (MST - BC (Ft Nelson))</option>
+                                                                            <option value="America/Fortaleza">America/Fortaleza (Brazil (northeast: MA, PI, CE, RN, PB))</option>
+                                                                            <option value="America/Glace_Bay">America/Glace_Bay (Atlantic - NS (Cape Breton))</option>
+                                                                            <option value="America/Goose_Bay">America/Goose_Bay (Atlantic - Labrador (most areas))</option>
+                                                                            <option value="America/Grand_Turk">America/Grand_Turk</option>
+                                                                            <option value="America/Grenada">America/Grenada</option>
+                                                                            <option value="America/Guadeloupe">America/Guadeloupe</option>
+                                                                            <option value="America/Guatemala">America/Guatemala</option>
+                                                                            <option value="America/Guayaquil">America/Guayaquil (Ecuador (mainland))</option>
+                                                                            <option value="America/Guyana">America/Guyana</option>
+                                                                            <option value="America/Halifax">America/Halifax (Atlantic - NS (most areas); PE)</option>
+                                                                            <option value="America/Havana">America/Havana</option>
+                                                                            <option value="America/Hermosillo">America/Hermosillo (Mountain Standard Time - Sonora)</option>
+                                                                            <option value="America/Indiana/Indianapolis">America/Indiana/Indianapolis (Eastern - IN (most areas))</option>
+                                                                            <option value="America/Indiana/Knox">America/Indiana/Knox (Central - IN (Starke))</option>
+                                                                            <option value="America/Indiana/Marengo">America/Indiana/Marengo (Eastern - IN (Crawford))</option>
+                                                                            <option value="America/Indiana/Petersburg">America/Indiana/Petersburg (Eastern - IN (Pike))</option>
+                                                                            <option value="America/Indiana/Tell_City">America/Indiana/Tell_City (Central - IN (Perry))</option>
+                                                                            <option value="America/Indiana/Vevay">America/Indiana/Vevay (Eastern - IN (Switzerland))</option>
+                                                                            <option value="America/Indiana/Vincennes">America/Indiana/Vincennes (Eastern - IN (Da, Du, K, Mn))</option>
+                                                                            <option value="America/Indiana/Winamac">America/Indiana/Winamac (Eastern - IN (Pulaski))</option>
+                                                                            <option value="America/Inuvik">America/Inuvik (Mountain - NT (west))</option>
+                                                                            <option value="America/Iqaluit">America/Iqaluit (Eastern - NU (most east areas))</option>
+                                                                            <option value="America/Jamaica">America/Jamaica</option>
+                                                                            <option value="America/Juneau">America/Juneau (Alaska - Juneau area)</option>
+                                                                            <option value="America/Kentucky/Louisville">America/Kentucky/Louisville (Eastern - KY (Louisville area))</option>
+                                                                            <option value="America/Kentucky/Monticello">America/Kentucky/Monticello (Eastern - KY (Wayne))</option>
+                                                                            <option value="America/Kralendijk">America/Kralendijk</option>
+                                                                            <option value="America/La_Paz">America/La_Paz</option>
+                                                                            <option value="America/Lima">America/Lima</option>
+                                                                            <option value="America/Los_Angeles">America/Los_Angeles (Pacific)</option>
+                                                                            <option value="America/Lower_Princes">America/Lower_Princes</option>
+                                                                            <option value="America/Maceio">America/Maceio (Alagoas, Sergipe)</option>
+                                                                            <option value="America/Managua">America/Managua</option>
+                                                                            <option value="America/Manaus">America/Manaus (Amazonas (east))</option>
+                                                                            <option value="America/Marigot">America/Marigot</option>
+                                                                            <option value="America/Martinique">America/Martinique</option>
+                                                                            <option value="America/Matamoros">America/Matamoros (Central Time US - Coahuila, Nuevo Leon, Tamaulipas (US border))</option>
+                                                                            <option value="America/Mazatlan">America/Mazatlan (Mountain Time - Baja California Sur, Nayarit, Sinaloa)</option>
+                                                                            <option value="America/Menominee">America/Menominee (Central - MI (Wisconsin border))</option>
+                                                                            <option value="America/Merida">America/Merida (Central Time - Campeche, Yucatan)</option>
+                                                                            <option value="America/Metlakatla">America/Metlakatla (Alaska - Annette Island)</option>
+                                                                            <option value="America/Mexico_City">America/Mexico_City (Central Time)</option>
+                                                                            <option value="America/Miquelon">America/Miquelon</option>
+                                                                            <option value="America/Moncton">America/Moncton (Atlantic - New Brunswick)</option>
+                                                                            <option value="America/Monterrey">America/Monterrey (Central Time - Durango; Coahuila, Nuevo Leon, Tamaulipas (most areas))</option>
+                                                                            <option value="America/Montevideo">America/Montevideo</option>
+                                                                            <option value="America/Montserrat">America/Montserrat</option>
+                                                                            <option value="America/Nassau">America/Nassau</option>
+                                                                            <option value="America/New_York" selected="">America/New_York (Eastern (most areas))</option>
+                                                                            <option value="America/Nipigon">America/Nipigon (Eastern - ON, QC (no DST 1967-73))</option>
+                                                                            <option value="America/Nome">America/Nome (Alaska (west))</option>
+                                                                            <option value="America/Noronha">America/Noronha (Atlantic islands)</option>
+                                                                            <option value="America/North_Dakota/Beulah">America/North_Dakota/Beulah (Central - ND (Mercer))</option>
+                                                                            <option value="America/North_Dakota/Center">America/North_Dakota/Center (Central - ND (Oliver))</option>
+                                                                            <option value="America/North_Dakota/New_Salem">America/North_Dakota/New_Salem (Central - ND (Morton rural))</option>
+                                                                            <option value="America/Nuuk">America/Nuuk (Greenland (most areas))</option>
+                                                                            <option value="America/Ojinaga">America/Ojinaga (Mountain Time US - Chihuahua (US border))</option>
+                                                                            <option value="America/Panama">America/Panama</option>
+                                                                            <option value="America/Pangnirtung">America/Pangnirtung (Eastern - NU (Pangnirtung))</option>
+                                                                            <option value="America/Paramaribo">America/Paramaribo</option>
+                                                                            <option value="America/Phoenix">America/Phoenix (MST - Arizona (except Navajo))</option>
+                                                                            <option value="America/Port-au-Prince">America/Port-au-Prince</option>
+                                                                            <option value="America/Port_of_Spain">America/Port_of_Spain</option>
+                                                                            <option value="America/Porto_Velho">America/Porto_Velho (Rondonia)</option>
+                                                                            <option value="America/Puerto_Rico">America/Puerto_Rico</option>
+                                                                            <option value="America/Punta_Arenas">America/Punta_Arenas (Region of Magallanes)</option>
+                                                                            <option value="America/Rainy_River">America/Rainy_River (Central - ON (Rainy R, Ft Frances))</option>
+                                                                            <option value="America/Rankin_Inlet">America/Rankin_Inlet (Central - NU (central))</option>
+                                                                            <option value="America/Recife">America/Recife (Pernambuco)</option>
+                                                                            <option value="America/Regina">America/Regina (CST - SK (most areas))</option>
+                                                                            <option value="America/Resolute">America/Resolute (Central - NU (Resolute))</option>
+                                                                            <option value="America/Rio_Branco">America/Rio_Branco (Acre)</option>
+                                                                            <option value="America/Santarem">America/Santarem (Para (west))</option>
+                                                                            <option value="America/Santiago">America/Santiago (Chile (most areas))</option>
+                                                                            <option value="America/Santo_Domingo">America/Santo_Domingo</option>
+                                                                            <option value="America/Sao_Paulo">America/Sao_Paulo (Brazil (southeast: GO, DF, MG, ES, RJ, SP, PR, SC, RS))</option>
+                                                                            <option value="America/Scoresbysund">America/Scoresbysund (Scoresbysund/Ittoqqortoormiit)</option>
+                                                                            <option value="America/Sitka">America/Sitka (Alaska - Sitka area)</option>
+                                                                            <option value="America/St_Barthelemy">America/St_Barthelemy</option>
+                                                                            <option value="America/St_Johns">America/St_Johns (Newfoundland; Labrador (southeast))</option>
+                                                                            <option value="America/St_Kitts">America/St_Kitts</option>
+                                                                            <option value="America/St_Lucia">America/St_Lucia</option>
+                                                                            <option value="America/St_Thomas">America/St_Thomas</option>
+                                                                            <option value="America/St_Vincent">America/St_Vincent</option>
+                                                                            <option value="America/Swift_Current">America/Swift_Current (CST - SK (midwest))</option>
+                                                                            <option value="America/Tegucigalpa">America/Tegucigalpa</option>
+                                                                            <option value="America/Thule">America/Thule (Thule/Pituffik)</option>
+                                                                            <option value="America/Thunder_Bay">America/Thunder_Bay (Eastern - ON (Thunder Bay))</option>
+                                                                            <option value="America/Tijuana">America/Tijuana (Pacific Time US - Baja California)</option>
+                                                                            <option value="America/Toronto">America/Toronto (Eastern - ON, QC (most areas))</option>
+                                                                            <option value="America/Tortola">America/Tortola</option>
+                                                                            <option value="America/Vancouver">America/Vancouver (Pacific - BC (most areas))</option>
+                                                                            <option value="America/Whitehorse">America/Whitehorse (Pacific - Yukon (east))</option>
+                                                                            <option value="America/Winnipeg">America/Winnipeg (Central - ON (west); Manitoba)</option>
+                                                                            <option value="America/Yakutat">America/Yakutat (Alaska - Yakutat)</option>
+                                                                            <option value="America/Yellowknife">America/Yellowknife (Mountain - NT (central))</option>
+                                                                            <option value="Antarctica/Casey">Antarctica/Casey (Casey)</option>
+                                                                            <option value="Antarctica/Davis">Antarctica/Davis (Davis)</option>
+                                                                            <option value="Antarctica/DumontDUrville">Antarctica/DumontDUrville (Dumont-d'Urville)</option>
+                                                                            <option value="Antarctica/Macquarie">Antarctica/Macquarie (Macquarie Island)</option>
+                                                                            <option value="Antarctica/Mawson">Antarctica/Mawson (Mawson)</option>
+                                                                            <option value="Antarctica/McMurdo">Antarctica/McMurdo (New Zealand time - McMurdo, South Pole)</option>
+                                                                            <option value="Antarctica/Palmer">Antarctica/Palmer (Palmer)</option>
+                                                                            <option value="Antarctica/Rothera">Antarctica/Rothera (Rothera)</option>
+                                                                            <option value="Antarctica/Syowa">Antarctica/Syowa (Syowa)</option>
+                                                                            <option value="Antarctica/Troll">Antarctica/Troll (Troll)</option>
+                                                                            <option value="Antarctica/Vostok">Antarctica/Vostok (Vostok)</option>
+                                                                            <option value="Arctic/Longyearbyen">Arctic/Longyearbyen</option>
+                                                                            <option value="Asia/Aden">Asia/Aden</option>
+                                                                            <option value="Asia/Almaty">Asia/Almaty (Kazakhstan (most areas))</option>
+                                                                            <option value="Asia/Amman">Asia/Amman</option>
+                                                                            <option value="Asia/Anadyr">Asia/Anadyr (MSK+09 - Bering Sea)</option>
+                                                                            <option value="Asia/Aqtau">Asia/Aqtau (Mangghystau/Mankistau)</option>
+                                                                            <option value="Asia/Aqtobe">Asia/Aqtobe (Aqtobe/Aktobe)</option>
+                                                                            <option value="Asia/Ashgabat">Asia/Ashgabat</option>
+                                                                            <option value="Asia/Atyrau">Asia/Atyrau (Atyrau/Atirau/Gur'yev)</option>
+                                                                            <option value="Asia/Baghdad">Asia/Baghdad</option>
+                                                                            <option value="Asia/Bahrain">Asia/Bahrain</option>
+                                                                            <option value="Asia/Baku">Asia/Baku</option>
+                                                                            <option value="Asia/Bangkok">Asia/Bangkok</option>
+                                                                            <option value="Asia/Barnaul">Asia/Barnaul (MSK+04 - Altai)</option>
+                                                                            <option value="Asia/Beirut">Asia/Beirut</option>
+                                                                            <option value="Asia/Bishkek">Asia/Bishkek</option>
+                                                                            <option value="Asia/Brunei">Asia/Brunei</option>
+                                                                            <option value="Asia/Chita">Asia/Chita (MSK+06 - Zabaykalsky)</option>
+                                                                            <option value="Asia/Choibalsan">Asia/Choibalsan (Dornod, Sukhbaatar)</option>
+                                                                            <option value="Asia/Colombo">Asia/Colombo</option>
+                                                                            <option value="Asia/Damascus">Asia/Damascus</option>
+                                                                            <option value="Asia/Dhaka">Asia/Dhaka</option>
+                                                                            <option value="Asia/Dili">Asia/Dili</option>
+                                                                            <option value="Asia/Dubai">Asia/Dubai</option>
+                                                                            <option value="Asia/Dushanbe">Asia/Dushanbe</option>
+                                                                            <option value="Asia/Famagusta">Asia/Famagusta (Northern Cyprus)</option>
+                                                                            <option value="Asia/Gaza">Asia/Gaza (Gaza Strip)</option>
+                                                                            <option value="Asia/Hebron">Asia/Hebron (West Bank)</option>
+                                                                            <option value="Asia/Ho_Chi_Minh">Asia/Ho_Chi_Minh</option>
+                                                                            <option value="Asia/Hong_Kong">Asia/Hong_Kong</option>
+                                                                            <option value="Asia/Hovd">Asia/Hovd (Bayan-Olgiy, Govi-Altai, Hovd, Uvs, Zavkhan)</option>
+                                                                            <option value="Asia/Irkutsk">Asia/Irkutsk (MSK+05 - Irkutsk, Buryatia)</option>
+                                                                            <option value="Asia/Jakarta">Asia/Jakarta (Java, Sumatra)</option>
+                                                                            <option value="Asia/Jayapura">Asia/Jayapura (New Guinea (West Papua / Irian Jaya); Malukus/Moluccas)</option>
+                                                                            <option value="Asia/Jerusalem">Asia/Jerusalem</option>
+                                                                            <option value="Asia/Kabul">Asia/Kabul</option>
+                                                                            <option value="Asia/Kamchatka">Asia/Kamchatka (MSK+09 - Kamchatka)</option>
+                                                                            <option value="Asia/Karachi">Asia/Karachi</option>
+                                                                            <option value="Asia/Kathmandu">Asia/Kathmandu</option>
+                                                                            <option value="Asia/Khandyga">Asia/Khandyga (MSK+06 - Tomponsky, Ust-Maysky)</option>
+                                                                            <option value="Asia/Kolkata">Asia/Kolkata</option>
+                                                                            <option value="Asia/Krasnoyarsk">Asia/Krasnoyarsk (MSK+04 - Krasnoyarsk area)</option>
+                                                                            <option value="Asia/Kuala_Lumpur">Asia/Kuala_Lumpur (Malaysia (peninsula))</option>
+                                                                            <option value="Asia/Kuching">Asia/Kuching (Sabah, Sarawak)</option>
+                                                                            <option value="Asia/Kuwait">Asia/Kuwait</option>
+                                                                            <option value="Asia/Macau">Asia/Macau</option>
+                                                                            <option value="Asia/Magadan">Asia/Magadan (MSK+08 - Magadan)</option>
+                                                                            <option value="Asia/Makassar">Asia/Makassar (Borneo (east, south); Sulawesi/Celebes, Bali, Nusa Tengarra; Timor (west))</option>
+                                                                            <option value="Asia/Manila">Asia/Manila</option>
+                                                                            <option value="Asia/Muscat">Asia/Muscat</option>
+                                                                            <option value="Asia/Nicosia">Asia/Nicosia (Cyprus (most areas))</option>
+                                                                            <option value="Asia/Novokuznetsk">Asia/Novokuznetsk (MSK+04 - Kemerovo)</option>
+                                                                            <option value="Asia/Novosibirsk">Asia/Novosibirsk (MSK+04 - Novosibirsk)</option>
+                                                                            <option value="Asia/Omsk">Asia/Omsk (MSK+03 - Omsk)</option>
+                                                                            <option value="Asia/Oral">Asia/Oral (West Kazakhstan)</option>
+                                                                            <option value="Asia/Phnom_Penh">Asia/Phnom_Penh</option>
+                                                                            <option value="Asia/Pontianak">Asia/Pontianak (Borneo (west, central))</option>
+                                                                            <option value="Asia/Pyongyang">Asia/Pyongyang</option>
+                                                                            <option value="Asia/Qatar">Asia/Qatar</option>
+                                                                            <option value="Asia/Qostanay">Asia/Qostanay (Qostanay/Kostanay/Kustanay)</option>
+                                                                            <option value="Asia/Qyzylorda">Asia/Qyzylorda (Qyzylorda/Kyzylorda/Kzyl-Orda)</option>
+                                                                            <option value="Asia/Riyadh">Asia/Riyadh</option>
+                                                                            <option value="Asia/Sakhalin">Asia/Sakhalin (MSK+08 - Sakhalin Island)</option>
+                                                                            <option value="Asia/Samarkand">Asia/Samarkand (Uzbekistan (west))</option>
+                                                                            <option value="Asia/Seoul">Asia/Seoul</option>
+                                                                            <option value="Asia/Shanghai">Asia/Shanghai (Beijing Time)</option>
+                                                                            <option value="Asia/Singapore">Asia/Singapore</option>
+                                                                            <option value="Asia/Srednekolymsk">Asia/Srednekolymsk (MSK+08 - Sakha (E); North Kuril Is)</option>
+                                                                            <option value="Asia/Taipei">Asia/Taipei</option>
+                                                                            <option value="Asia/Tashkent">Asia/Tashkent (Uzbekistan (east))</option>
+                                                                            <option value="Asia/Tbilisi">Asia/Tbilisi</option>
+                                                                            <option value="Asia/Tehran">Asia/Tehran</option>
+                                                                            <option value="Asia/Thimphu">Asia/Thimphu</option>
+                                                                            <option value="Asia/Tokyo">Asia/Tokyo</option>
+                                                                            <option value="Asia/Tomsk">Asia/Tomsk (MSK+04 - Tomsk)</option>
+                                                                            <option value="Asia/Ulaanbaatar">Asia/Ulaanbaatar (Mongolia (most areas))</option>
+                                                                            <option value="Asia/Urumqi">Asia/Urumqi (Xinjiang Time)</option>
+                                                                            <option value="Asia/Ust-Nera">Asia/Ust-Nera (MSK+07 - Oymyakonsky)</option>
+                                                                            <option value="Asia/Vientiane">Asia/Vientiane</option>
+                                                                            <option value="Asia/Vladivostok">Asia/Vladivostok (MSK+07 - Amur River)</option>
+                                                                            <option value="Asia/Yakutsk">Asia/Yakutsk (MSK+06 - Lena River)</option>
+                                                                            <option value="Asia/Yangon">Asia/Yangon</option>
+                                                                            <option value="Asia/Yekaterinburg">Asia/Yekaterinburg (MSK+02 - Urals)</option>
+                                                                            <option value="Asia/Yerevan">Asia/Yerevan</option>
+                                                                            <option value="Atlantic/Azores">Atlantic/Azores (Azores)</option>
+                                                                            <option value="Atlantic/Bermuda">Atlantic/Bermuda</option>
+                                                                            <option value="Atlantic/Canary">Atlantic/Canary (Canary Islands)</option>
+                                                                            <option value="Atlantic/Cape_Verde">Atlantic/Cape_Verde</option>
+                                                                            <option value="Atlantic/Faroe">Atlantic/Faroe</option>
+                                                                            <option value="Atlantic/Madeira">Atlantic/Madeira (Madeira Islands)</option>
+                                                                            <option value="Atlantic/Reykjavik">Atlantic/Reykjavik</option>
+                                                                            <option value="Atlantic/South_Georgia">Atlantic/South_Georgia</option>
+                                                                            <option value="Atlantic/St_Helena">Atlantic/St_Helena</option>
+                                                                            <option value="Atlantic/Stanley">Atlantic/Stanley</option>
+                                                                            <option value="Australia/Adelaide">Australia/Adelaide (South Australia)</option>
+                                                                            <option value="Australia/Brisbane">Australia/Brisbane (Queensland (most areas))</option>
+                                                                            <option value="Australia/Broken_Hill">Australia/Broken_Hill (New South Wales (Yancowinna))</option>
+                                                                            <option value="Australia/Currie">Australia/Currie (Tasmania (King Island))</option>
+                                                                            <option value="Australia/Darwin">Australia/Darwin (Northern Territory)</option>
+                                                                            <option value="Australia/Eucla">Australia/Eucla (Western Australia (Eucla))</option>
+                                                                            <option value="Australia/Hobart">Australia/Hobart (Tasmania (most areas))</option>
+                                                                            <option value="Australia/Lindeman">Australia/Lindeman (Queensland (Whitsunday Islands))</option>
+                                                                            <option value="Australia/Lord_Howe">Australia/Lord_Howe (Lord Howe Island)</option>
+                                                                            <option value="Australia/Melbourne">Australia/Melbourne (Victoria)</option>
+                                                                            <option value="Australia/Perth">Australia/Perth (Western Australia (most areas))</option>
+                                                                            <option value="Australia/Sydney">Australia/Sydney (New South Wales (most areas))</option>
+                                                                            <option value="Europe/Amsterdam">Europe/Amsterdam</option>
+                                                                            <option value="Europe/Andorra">Europe/Andorra</option>
+                                                                            <option value="Europe/Astrakhan">Europe/Astrakhan (MSK+01 - Astrakhan)</option>
+                                                                            <option value="Europe/Athens">Europe/Athens</option>
+                                                                            <option value="Europe/Belgrade">Europe/Belgrade</option>
+                                                                            <option value="Europe/Berlin">Europe/Berlin (Germany (most areas))</option>
+                                                                            <option value="Europe/Bratislava">Europe/Bratislava</option>
+                                                                            <option value="Europe/Brussels">Europe/Brussels</option>
+                                                                            <option value="Europe/Bucharest">Europe/Bucharest</option>
+                                                                            <option value="Europe/Budapest">Europe/Budapest</option>
+                                                                            <option value="Europe/Busingen">Europe/Busingen (Busingen)</option>
+                                                                            <option value="Europe/Chisinau">Europe/Chisinau</option>
+                                                                            <option value="Europe/Copenhagen">Europe/Copenhagen</option>
+                                                                            <option value="Europe/Dublin">Europe/Dublin</option>
+                                                                            <option value="Europe/Gibraltar">Europe/Gibraltar</option>
+                                                                            <option value="Europe/Guernsey">Europe/Guernsey</option>
+                                                                            <option value="Europe/Helsinki">Europe/Helsinki</option>
+                                                                            <option value="Europe/Isle_of_Man">Europe/Isle_of_Man</option>
+                                                                            <option value="Europe/Istanbul">Europe/Istanbul</option>
+                                                                            <option value="Europe/Jersey">Europe/Jersey</option>
+                                                                            <option value="Europe/Kaliningrad">Europe/Kaliningrad (MSK-01 - Kaliningrad)</option>
+                                                                            <option value="Europe/Kiev">Europe/Kiev (Ukraine (most areas))</option>
+                                                                            <option value="Europe/Kirov">Europe/Kirov (MSK+00 - Kirov)</option>
+                                                                            <option value="Europe/Lisbon">Europe/Lisbon (Portugal (mainland))</option>
+                                                                            <option value="Europe/Ljubljana">Europe/Ljubljana</option>
+                                                                            <option value="Europe/London">Europe/London</option>
+                                                                            <option value="Europe/Luxembourg">Europe/Luxembourg</option>
+                                                                            <option value="Europe/Madrid">Europe/Madrid (Spain (mainland))</option>
+                                                                            <option value="Europe/Malta">Europe/Malta</option>
+                                                                            <option value="Europe/Mariehamn">Europe/Mariehamn</option>
+                                                                            <option value="Europe/Minsk">Europe/Minsk</option>
+                                                                            <option value="Europe/Monaco">Europe/Monaco</option>
+                                                                            <option value="Europe/Moscow">Europe/Moscow (MSK+00 - Moscow area)</option>
+                                                                            <option value="Europe/Oslo">Europe/Oslo</option>
+                                                                            <option value="Europe/Paris">Europe/Paris</option>
+                                                                            <option value="Europe/Podgorica">Europe/Podgorica</option>
+                                                                            <option value="Europe/Prague">Europe/Prague</option>
+                                                                            <option value="Europe/Riga">Europe/Riga</option>
+                                                                            <option value="Europe/Rome">Europe/Rome</option>
+                                                                            <option value="Europe/Samara">Europe/Samara (MSK+01 - Samara, Udmurtia)</option>
+                                                                            <option value="Europe/San_Marino">Europe/San_Marino</option>
+                                                                            <option value="Europe/Sarajevo">Europe/Sarajevo</option>
+                                                                            <option value="Europe/Saratov">Europe/Saratov (MSK+01 - Saratov)</option>
+                                                                            <option value="Europe/Simferopol">Europe/Simferopol (Crimea)</option>
+                                                                            <option value="Europe/Skopje">Europe/Skopje</option>
+                                                                            <option value="Europe/Sofia">Europe/Sofia</option>
+                                                                            <option value="Europe/Stockholm">Europe/Stockholm</option>
+                                                                            <option value="Europe/Tallinn">Europe/Tallinn</option>
+                                                                            <option value="Europe/Tirane">Europe/Tirane</option>
+                                                                            <option value="Europe/Ulyanovsk">Europe/Ulyanovsk (MSK+01 - Ulyanovsk)</option>
+                                                                            <option value="Europe/Uzhgorod">Europe/Uzhgorod (Transcarpathia)</option>
+                                                                            <option value="Europe/Vaduz">Europe/Vaduz</option>
+                                                                            <option value="Europe/Vatican">Europe/Vatican</option>
+                                                                            <option value="Europe/Vienna">Europe/Vienna</option>
+                                                                            <option value="Europe/Vilnius">Europe/Vilnius</option>
+                                                                            <option value="Europe/Volgograd">Europe/Volgograd (MSK+01 - Volgograd)</option>
+                                                                            <option value="Europe/Warsaw">Europe/Warsaw</option>
+                                                                            <option value="Europe/Zagreb">Europe/Zagreb</option>
+                                                                            <option value="Europe/Zaporozhye">Europe/Zaporozhye (Zaporozhye and east Lugansk)</option>
+                                                                            <option value="Europe/Zurich">Europe/Zurich</option>
+                                                                            <option value="GMT">GMT (GMT)</option>
+                                                                            <option value="Indian/Antananarivo">Indian/Antananarivo</option>
+                                                                            <option value="Indian/Chagos">Indian/Chagos</option>
+                                                                            <option value="Indian/Christmas">Indian/Christmas</option>
+                                                                            <option value="Indian/Cocos">Indian/Cocos</option>
+                                                                            <option value="Indian/Comoro">Indian/Comoro</option>
+                                                                            <option value="Indian/Kerguelen">Indian/Kerguelen</option>
+                                                                            <option value="Indian/Mahe">Indian/Mahe</option>
+                                                                            <option value="Indian/Maldives">Indian/Maldives</option>
+                                                                            <option value="Indian/Mauritius">Indian/Mauritius</option>
+                                                                            <option value="Indian/Mayotte">Indian/Mayotte</option>
+                                                                            <option value="Indian/Reunion">Indian/Reunion</option>
+                                                                            <option value="Pacific/Apia">Pacific/Apia</option>
+                                                                            <option value="Pacific/Auckland">Pacific/Auckland (New Zealand (most areas))</option>
+                                                                            <option value="Pacific/Bougainville">Pacific/Bougainville (Bougainville)</option>
+                                                                            <option value="Pacific/Chatham">Pacific/Chatham (Chatham Islands)</option>
+                                                                            <option value="Pacific/Chuuk">Pacific/Chuuk (Chuuk/Truk, Yap)</option>
+                                                                            <option value="Pacific/Easter">Pacific/Easter (Easter Island)</option>
+                                                                            <option value="Pacific/Efate">Pacific/Efate</option>
+                                                                            <option value="Pacific/Enderbury">Pacific/Enderbury (Phoenix Islands)</option>
+                                                                            <option value="Pacific/Fakaofo">Pacific/Fakaofo</option>
+                                                                            <option value="Pacific/Fiji">Pacific/Fiji</option>
+                                                                            <option value="Pacific/Funafuti">Pacific/Funafuti</option>
+                                                                            <option value="Pacific/Galapagos">Pacific/Galapagos (Galapagos Islands)</option>
+                                                                            <option value="Pacific/Gambier">Pacific/Gambier (Gambier Islands)</option>
+                                                                            <option value="Pacific/Guadalcanal">Pacific/Guadalcanal</option>
+                                                                            <option value="Pacific/Guam">Pacific/Guam</option>
+                                                                            <option value="Pacific/Honolulu">Pacific/Honolulu (Hawaii)</option>
+                                                                            <option value="Pacific/Kiritimati">Pacific/Kiritimati (Line Islands)</option>
+                                                                            <option value="Pacific/Kosrae">Pacific/Kosrae (Kosrae)</option>
+                                                                            <option value="Pacific/Kwajalein">Pacific/Kwajalein (Kwajalein)</option>
+                                                                            <option value="Pacific/Majuro">Pacific/Majuro (Marshall Islands (most areas))</option>
+                                                                            <option value="Pacific/Marquesas">Pacific/Marquesas (Marquesas Islands)</option>
+                                                                            <option value="Pacific/Midway">Pacific/Midway (Midway Islands)</option>
+                                                                            <option value="Pacific/Nauru">Pacific/Nauru</option>
+                                                                            <option value="Pacific/Niue">Pacific/Niue</option>
+                                                                            <option value="Pacific/Norfolk">Pacific/Norfolk</option>
+                                                                            <option value="Pacific/Noumea">Pacific/Noumea</option>
+                                                                            <option value="Pacific/Pago_Pago">Pacific/Pago_Pago</option>
+                                                                            <option value="Pacific/Palau">Pacific/Palau</option>
+                                                                            <option value="Pacific/Pitcairn">Pacific/Pitcairn</option>
+                                                                            <option value="Pacific/Pohnpei">Pacific/Pohnpei (Pohnpei/Ponape)</option>
+                                                                            <option value="Pacific/Port_Moresby">Pacific/Port_Moresby (Papua New Guinea (most areas))</option>
+                                                                            <option value="Pacific/Rarotonga">Pacific/Rarotonga</option>
+                                                                            <option value="Pacific/Saipan">Pacific/Saipan</option>
+                                                                            <option value="Pacific/Tahiti">Pacific/Tahiti (Society Islands)</option>
+                                                                            <option value="Pacific/Tarawa">Pacific/Tarawa (Gilbert Islands)</option>
+                                                                            <option value="Pacific/Tongatapu">Pacific/Tongatapu</option>
+                                                                            <option value="Pacific/Wake">Pacific/Wake (Wake Island)</option>
+                                                                            <option value="Pacific/Wallis">Pacific/Wallis</option>
+                                                                            <option value="UTC">UTC (UTC)</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="form-group radio-form-group">
+                                                                        <label>مجموعه کاراکتر پیش فرض:</label>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="default-character-set" value="dcs-default" id="dcs-default" checked onclick="e = form.elements['dcs-other-text']; e.disabled = true; for(i=0; i<e.length; i++) { e[i].disabled = true; } ">
+                                                                            <label for="dcs-default">پیشفرض</label>
+                                                                        </div>
+                                                                        <div class="radio">
+                                                                            <input type="radio" name="default-character-set" value="dcs-other" id="dcs-other"  onclick="e = form.elements['dcs-other-text']; e.disabled = false; for(i=0; i<e.length; i++) { e[i].disabled = false; } ">
+                                                                            <label for="dcs-other" class="label-radio">مقدار دلخواه</label>
+                                                                        </div>
+                                                                        <div class="col-12 clear-both">
+                                                                            <input type="text" class="form-control" id="dcs-other-text" name="dcs-other-text" disabled>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <input type="submit" value="ثبت" class="btn btn-primary">
+                                                            </div>
+                                                        </fieldset>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END: Content-->
+
+
+<!-- BEGIN: Customizer-->
+<div class="customizer d-none d-md-block"><a class="customizer-close" href="#"><i class="bx bx-x"></i></a><a
+        class="customizer-toggle" href="#"><i class="bx bx-cog bx bx-spin white"></i></a>
+    <div class="customizer-content p-2">
+        <h4 class="text-uppercase mb-0 mt-n50">سفارشی سازی</h4>
+
+        <hr>
+        <!-- Theme options starts -->
+        <h5 class="mt-n25">طرح</h5>
+        <div class="theme-layouts">
+            <div class="d-flex justify-content-start">
+                <div class="mx-50">
+                    <fieldset>
+                        <div class="radio">
+                            <input type="radio" name="layoutOptions" value="false" id="radio-light" class="layout-name"
+                                   data-layout="" checked>
+                            <label for="radio-light">روشن</label>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="mx-50">
+                    <fieldset>
+                        <div class="radio">
+                            <input type="radio" name="layoutOptions" value="false" id="radio-dark" class="layout-name"
+                                   data-layout="dark-layout">
+                            <label for="radio-dark">تیره</label>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="mx-50">
+                    <fieldset>
+                        <div class="radio">
+                            <input type="radio" name="layoutOptions" value="false" id="radio-semi-dark"
+                                   class="layout-name" data-layout="semi-dark-layout">
+                            <label for="radio-semi-dark">نیمه تیره</label>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+        <!-- Theme options starts -->
+        <hr>
+
+        <!-- Menu Colors Starts -->
+        <div id="customizer-theme-colors">
+            <h5>رنگ های فهرست</h5>
+            <ul class="list-inline unstyled-list">
+                <li class="color-box bg-primary selected" data-color="theme-primary"></li>
+                <li class="color-box bg-success" data-color="theme-success"></li>
+                <li class="color-box bg-danger" data-color="theme-danger"></li>
+                <li class="color-box bg-info" data-color="theme-info"></li>
+                <li class="color-box bg-warning" data-color="theme-warning"></li>
+                <li class="color-box bg-dark" data-color="theme-dark"></li>
+            </ul>
+            <hr>
+        </div>
+        <!-- Menu Colors Ends -->
+        <!-- Menu Icon Animation Starts -->
+        <div id="menu-icon-animation">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="icon-animation-title">
+                    <h5 class="pt-25">انیمیشن آیکن ها</h5>
+                </div>
+                <div class="icon-animation-switch">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" checked id="icon-animation-switch">
+                        <label class="custom-control-label" for="icon-animation-switch"></label>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <!-- Menu Icon Animation Ends -->
+        <!-- Collapse sidebar switch starts -->
+        <div class="collapse-sidebar d-flex justify-content-between align-items-center">
+            <div class="collapse-option-title">
+                <h5 class="pt-25">جمع کردن فهرست</h5>
+            </div>
+            <div class="collapse-option-switch">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="collapse-sidebar-switch">
+                    <label class="custom-control-label" for="collapse-sidebar-switch"></label>
+                </div>
+            </div>
+        </div>
+        <!-- Collapse sidebar switch Ends -->
+        <hr>
+
+        <!-- Navbar colors starts -->
+        <div id="customizer-navbar-colors">
+            <h5>رنگ های نوار بالایی</h5>
+            <ul class="list-inline unstyled-list">
+                <li class="color-box bg-white border selected" data-navbar-default=""></li>
+                <li class="color-box bg-primary" data-navbar-color="bg-primary"></li>
+                <li class="color-box bg-success" data-navbar-color="bg-success"></li>
+                <li class="color-box bg-danger" data-navbar-color="bg-danger"></li>
+                <li class="color-box bg-info" data-navbar-color="bg-info"></li>
+                <li class="color-box bg-warning" data-navbar-color="bg-warning"></li>
+                <li class="color-box bg-dark" data-navbar-color="bg-dark"></li>
+            </ul>
+            <small><strong>نکته :</strong> این گزینه تنها در حالت نوار ثابت و در هنگام اسکرول صفحه نمایش داده خواهد شد.</small>
+            <hr>
+        </div>
+        <!-- Navbar colors starts -->
+        <!-- Navbar Type Starts -->
+        <h5 class="mt-n25">نوع نوار بالایی</h5>
+        <div class="navbar-type d-flex justify-content-start">
+            <div class="hidden-ele mx-50">
+                <fieldset>
+                    <div class="radio">
+                        <input type="radio" name="navbarType" value="false" id="navbar-hidden">
+                        <label for="navbar-hidden">مخفی</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="mx-50">
+                <fieldset>
+                    <div class="radio">
+                        <input type="radio" name="navbarType" value="false" id="navbar-static">
+                        <label for="navbar-static">ایستا</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="mx-50">
+                <fieldset>
+                    <div class="radio">
+                        <input type="radio" name="navbarType" value="false" id="navbar-sticky" checked>
+                        <label for="navbar-sticky">ثابت</label>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <hr>
+        <!-- Navbar Type Starts -->
+
+        <!-- Footer Type Starts -->
+        <h5 class="mt-n25">نوع فوتر</h5>
+        <div class="footer-type d-flex justify-content-start">
+            <div class="mx-50">
+                <fieldset>
+                    <div class="radio">
+                        <input type="radio" name="footerType" value="false" id="footer-hidden">
+                        <label for="footer-hidden">مخفی</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="mx-50">
+                <fieldset>
+                    <div class="radio">
+                        <input type="radio" name="footerType" value="false" id="footer-static" checked>
+                        <label for="footer-static">ایستا</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="mx-50">
+                <fieldset>
+                    <div class="radio">
+                        <input type="radio" name="footerType" value="false" id="footer-sticky">
+                        <label for="footer-sticky" class="">چسبان</label>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <!-- Footer Type Ends -->
+        <hr>
+
+        <!-- Card Shadow Starts-->
+        <div class="card-shadow d-flex justify-content-between align-items-center py-25">
+            <div class="hide-scroll-title">
+                <h5 class="pt-25">سایه کارت</h5>
+            </div>
+            <div class="card-shadow-switch">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" checked id="card-shadow-switch">
+                    <label class="custom-control-label" for="card-shadow-switch"></label>
+                </div>
+            </div>
+        </div>
+        <!-- Card Shadow Ends-->
+        <hr>
+
+        <!-- Hide Scroll To Top Starts-->
+        <div class="hide-scroll-to-top d-flex justify-content-between align-items-center py-25">
+            <div class="hide-scroll-title">
+                <h5 class="pt-25">مخفی سازی دکمه اسکرول به بالا</h5>
+            </div>
+            <div class="hide-scroll-top-switch">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="hide-scroll-top-switch">
+                    <label class="custom-control-label" for="hide-scroll-top-switch"></label>
+                </div>
+            </div>
+        </div>
+        <!-- Hide Scroll To Top Ends-->
+    </div>
+</div>
+<!-- End: Customizer-->
+
+
+<div class="sidenav-overlay"></div>
+<div class="drag-target"></div>
+
+<!-- BEGIN: Footer-->
+<footer class="footer footer-static footer-light">
+    <p class="clearfix mb-0"><span class="float-left d-inline-block">به پنل کاری از <a href="http://pdei.co.ir/"
+                                                                                       target="_blank">"پشتیبان داده ایرانیان"</a></span>
+        <button class="btn btn-primary btn-icon scroll-top" type="button"><i class="bx bx-up-arrow-alt"></i></button>
+    </p>
+</footer>
+<!-- END: Footer-->
+
+
+<!-- BEGIN: Vendor JS-->
+<script src="assets/vendors/js/vendors.min.js"></script>
+<script src="assets/fonts/LivIconsEvo/js/LivIconsEvo.tools.min.js"></script>
+<script src="assets/fonts/LivIconsEvo/js/LivIconsEvo.defaults.js"></script>
+<script src="assets/fonts/LivIconsEvo/js/LivIconsEvo.min.js"></script>
+<!-- BEGIN Vendor JS-->
+
+<!-- BEGIN: Page Vendor JS-->
+<script src="assets/vendors/js/ui/jquery.sticky.js"></script>
+<script src="assets/vendors/js/charts/apexcharts.min.js"></script>
+<script src="assets/vendors/js/extensions/dragula.min.js"></script>
+<!-- END: Page Vendor JS-->
+
+<!-- BEGIN: Theme JS-->
+<script src="assets/js/scripts/configs/horizontal-menu.js"></script>
+<script src="assets/js/core/app-menu.js"></script>
+<script src="assets/js/core/app.js"></script>
+<script src="assets/js/scripts/components.js"></script>
+<script src="assets/js/scripts/footer.js"></script>
+<script src="assets/js/scripts/customizer.js"></script>
+<!-- END: Theme JS-->
+
+<!-- BEGIN: Page JS-->
+<script src="assets/js/scripts/pages/dashboard-analytics.js"></script>
+<script src="assets/js/custom.js"></script>
+
+<!-- END: Page JS-->
+<script>
+
+</script>
+</body>
+<!-- END: Body-->
+</html>
